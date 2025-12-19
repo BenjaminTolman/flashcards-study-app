@@ -1,0 +1,181 @@
+{
+  "title": "CompTIA A+ Core 1 - Networking",
+  "cards": [
+    {
+      "question": "What device connects multiple computers within a local network?",
+      "choices": ["Router", "Switch", "Modem", "Firewall"],
+      "answer": "Switch",
+      "explanation": "A switch connects devices within a LAN and forwards traffic based on MAC addresses."
+    },
+    {
+      "question": "Which device connects a local network to the internet?",
+      "choices": ["Switch", "Access Point", "Router", "Hub"],
+      "answer": "Router",
+      "explanation": "A router directs traffic between different networks, such as a LAN and the internet."
+    },
+    {
+      "question": "Which network device broadcasts data to all ports?",
+      "choices": ["Switch", "Router", "Hub", "Firewall"],
+      "answer": "Hub",
+      "explanation": "A hub sends incoming traffic to all connected devices."
+    },
+    {
+      "question": "Which protocol assigns IP addresses automatically?",
+      "choices": ["DNS", "DHCP", "HTTP", "FTP"],
+      "answer": "DHCP",
+      "explanation": "DHCP automatically assigns IP addresses to devices on a network."
+    },
+    {
+      "question": "Which protocol resolves domain names to IP addresses?",
+      "choices": ["DHCP", "HTTP", "DNS", "SNMP"],
+      "answer": "DNS",
+      "explanation": "DNS translates human-readable domain names into IP addresses."
+    },
+    {
+      "question": "Which IP address is considered a private address?",
+      "choices": ["8.8.8.8", "192.168.1.10", "54.23.11.2", "1.1.1.1"],
+      "answer": "192.168.1.10",
+      "explanation": "192.168.0.0/16 is reserved for private networks."
+    },
+    {
+      "question": "Which port is used by HTTP?",
+      "choices": ["21", "22", "80", "443"],
+      "answer": "80",
+      "explanation": "HTTP traffic uses TCP port 80 by default."
+    },
+    {
+      "question": "Which port is used by HTTPS?",
+      "choices": ["80", "443", "25", "110"],
+      "answer": "443",
+      "explanation": "HTTPS uses TCP port 443 for encrypted web traffic."
+    },
+    {
+      "question": "Which protocol is used for secure remote login?",
+      "choices": ["FTP", "Telnet", "SSH", "HTTP"],
+      "answer": "SSH",
+      "explanation": "SSH provides encrypted remote access to systems."
+    },
+    {
+      "question": "Which protocol is used to send email?",
+      "choices": ["POP3", "IMAP", "SMTP", "SNMP"],
+      "answer": "SMTP",
+      "explanation": "SMTP is used to send email between servers."
+    },
+
+    {
+      "question": "Which wireless standard operates at 2.4 GHz and 5 GHz?",
+      "choices": ["802.11b", "802.11g", "802.11n", "802.11a"],
+      "answer": "802.11n",
+      "explanation": "802.11n supports both 2.4 GHz and 5 GHz bands."
+    },
+    {
+      "question": "Which wireless standard provides the fastest speeds?",
+      "choices": ["802.11g", "802.11n", "802.11ac", "802.11b"],
+      "answer": "802.11ac",
+      "explanation": "802.11ac offers higher speeds using the 5 GHz band."
+    },
+    {
+      "question": "Which wireless security protocol is the most secure?",
+      "choices": ["WEP", "WPA", "WPA2", "Open"],
+      "answer": "WPA2",
+      "explanation": "WPA2 provides strong encryption and is preferred for secure Wi-Fi."
+    },
+    {
+      "question": "Which cable type is used for Ethernet networking?",
+      "choices": ["Coaxial", "Fiber", "Twisted Pair", "Serial"],
+      "answer": "Twisted Pair",
+      "explanation": "Ethernet networks typically use twisted pair cables."
+    },
+    {
+      "question": "Which Ethernet cable supports 1 Gbps speeds?",
+      "choices": ["Cat3", "Cat5", "Cat5e", "Cat6a"],
+      "answer": "Cat5e",
+      "explanation": "Cat5e supports Gigabit Ethernet speeds."
+    },
+    {
+      "question": "Which connector is used with Ethernet cables?",
+      "choices": ["RJ-11", "RJ-45", "BNC", "SC"],
+      "answer": "RJ-45",
+      "explanation": "RJ-45 connectors are used for Ethernet networking."
+    },
+    {
+      "question": "Which topology uses a central device?",
+      "choices": ["Bus", "Ring", "Star", "Mesh"],
+      "answer": "Star",
+      "explanation": "Star topology connects all devices to a central switch or hub."
+    },
+    {
+      "question": "Which topology has no central point of failure?",
+      "choices": ["Star", "Bus", "Ring", "Mesh"],
+      "answer": "Mesh",
+      "explanation": "Mesh topology provides multiple paths between devices."
+    },
+    {
+      "question": "Which protocol is used to retrieve email from a server?",
+      "choices": ["SMTP", "FTP", "POP3", "SNMP"],
+      "answer": "POP3",
+      "explanation": "POP3 downloads email messages from a mail server."
+    },
+    {
+      "question": "Which protocol keeps email on the server?",
+      "choices": ["POP3", "IMAP", "SMTP", "DNS"],
+      "answer": "IMAP",
+      "explanation": "IMAP allows email to remain stored on the server."
+    },
+
+    {
+      "question": "Which IP address is a loopback address?",
+      "choices": ["0.0.0.0", "127.0.0.1", "255.255.255.255", "192.168.1.1"],
+      "answer": "127.0.0.1",
+      "explanation": "127.0.0.1 is used to test the local TCP/IP stack."
+    },
+    {
+      "question": "Which command tests network connectivity?",
+      "choices": ["ipconfig", "ping", "netstat", "nslookup"],
+      "answer": "ping",
+      "explanation": "Ping tests connectivity by sending ICMP echo requests."
+    },
+    {
+      "question": "Which command displays IP configuration in Windows?",
+      "choices": ["ping", "tracert", "ipconfig", "net use"],
+      "answer": "ipconfig",
+      "explanation": "ipconfig shows IP address and network configuration details."
+    },
+    {
+      "question": "Which service translates private IPs to public IPs?",
+      "choices": ["DNS", "DHCP", "NAT", "SNMP"],
+      "answer": "NAT",
+      "explanation": "NAT allows multiple private IPs to share one public IP."
+    },
+    {
+      "question": "Which device provides wireless network access?",
+      "choices": ["Switch", "Router", "Access Point", "Firewall"],
+      "answer": "Access Point",
+      "explanation": "An access point allows wireless devices to connect to a wired network."
+    },
+    {
+      "question": "Which port is used by FTP?",
+      "choices": ["20/21", "22", "23", "25"],
+      "answer": "20/21",
+      "explanation": "FTP uses ports 20 and 21 for data and control."
+    },
+    {
+      "question": "Which port is used by SSH?",
+      "choices": ["21", "22", "23", "80"],
+      "answer": "22",
+      "explanation": "SSH uses TCP port 22."
+    },
+    {
+      "question": "Which port is used by DNS?",
+      "choices": ["53", "67", "110", "443"],
+      "answer": "53",
+      "explanation": "DNS uses port 53 for name resolution."
+    },
+    {
+      "question": "Which wireless frequency offers better range?",
+      "choices": ["5 GHz", "6 GHz", "2.4 GHz", "Dual-band"],
+      "answer": "2.4 GHz",
+      "explanation": "2.4 GHz provides better range but lower speeds."
+    }
+  ]
+}
